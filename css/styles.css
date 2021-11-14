@@ -136,13 +136,17 @@ button {
 }
 
 .info h2 {
-    padding: 1em 0;
+    padding: 1.5em 0;
+    text-align: center;
 }
 
 .info-blocks {
     display: flex;
-    justify-content: center;
-    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em 0;
+    padding-bottom: 8em;
+    max-width: 800px;
 }
 
 .info-block {
