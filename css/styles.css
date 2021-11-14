@@ -55,9 +55,11 @@ button {
     font-size: 18px;
     font-weight: bold;
     background-color: #3882F6;
-    padding: 8px 36px;
+    min-width: 8em;
+    min-height: 2em;
     border: 0;
     border-radius: 8px;
+    text-align: center;
 }
 
 .header-top a, 
@@ -194,4 +196,39 @@ button {
     display: flex;
     justify-content: flex-end;
 
+}
+
+/* Sign-up Section Styles */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8em 12.5%;
+}
+
+.sign-up-block {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 4em 8em;
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-block-text {
+    color:#F9FAF8;
+    padding-right: 8em;
+}
+
+.sign-up-block-text strong {
+    font-size: 24px;
+}
+
+.sign-up-block-text p {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up-block-button {
+    border: 3px solid #F9FAF8;
 }
