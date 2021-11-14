@@ -169,13 +169,13 @@ button {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 8em 12.5%;
+    padding: 6em 12.5%;
     align-items: center;
     justify-content: center;
 }
 
 .quote-block {
-    max-width: 800px;
+    max-width: 780px;
 }
 
 .quote-text {
